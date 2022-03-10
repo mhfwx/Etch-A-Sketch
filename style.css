@@ -1,0 +1,19 @@
+:root {
+  --bg-color:#ffffff;
+}
+
+#container {
+  display: grid;
+  height: 200px;
+  width: 200px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  border: 1px solid #ddd;
+  text-align: center;
+}
